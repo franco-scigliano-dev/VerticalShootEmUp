@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: afbfef8cf40ebde448414a7f9ecc79a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5351347143441575157
+    second: tyrian.shp.007D3C_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b031d5d20223cb5b0800000000000000
+      internalID: -5351347143441575157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf05307a8868fd4b94a0d5b4eb4f10c
+      internalID: -953754205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64c172cea71e344ad45a9b6a1c4c87
+      internalID: -1704531747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0baa757ed72dd64c92ca0b0a5bfeefd
+      internalID: -1483643269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f8942b6bd44d34181144f256cd1a9f
+      internalID: -450353877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684028d236150eb4f973059bf98b9082
+      internalID: -873308095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eda20f8a2c1c246bf142e844cafa4d
+      internalID: 1675583122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03891039ec863d42a55797379163909
+      internalID: -151120489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc94396edd5ab94d9e84a70beb996c6
+      internalID: 1939101422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857c64514cba24943b41752181721d9f
+      internalID: -557886549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56d0223b159ed54aae02727c838b64c
+      internalID: 564653194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be043b90029ef340b7fb0f4a1e149ef
+      internalID: -1849770775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d13da975c91bf144b66521adacfe982
+      internalID: 12594519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db66ec4f8aa2a484686b02204de32597
+      internalID: -877384469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c675ffd072ebc5141b26ad62d90e2cc8
+      internalID: -359605173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd6a64f43d561a438213d61353e07c5
+      internalID: 776394456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a36b7f51a941ff47ba9fa01114e9a10
+      internalID: 2035688678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05db58ddea4c9045af30085f17f2572
+      internalID: -620926611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1c4cf7f6868d2479ae4c9fa9dcf46e
+      internalID: 1649007236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aadb6e2afbf3841b290291f87793e6
+      internalID: 953171062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79d68a5a9bed544d8137b6cff8f48bc
+      internalID: -179411709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 28
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcf0fd2b740a894b95e05b3a1f32ad3
+      internalID: -1206080513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe34246c1c344a41b2d9d3bf7264d4c
+      internalID: -2002690731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 28
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374af17452c8c644e98c9e032c0db5c3
+      internalID: -1957337978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a21b988f82fa0c4d9a23ab971f265d6
+      internalID: -687281907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419f4c65295efd24488ce7a75ed9588a
+      internalID: 424213687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_46
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56306292b4112dc4da3ae78b2d57eaa9
+      internalID: 1529000017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e8e88b1f1ff6408e89261920bb22d
+      internalID: 332525345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceb8d2d1fe4d1c438e1d04c80ba83d1
+      internalID: -1482469885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tyrian.shp.007D3C_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3999231684d8ef14a8cc0c49c5f89370
+      internalID: 827068601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c2a37c5e72135f84d85da94abf04502c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tyrian.shp.007D3C_0: -5351347143441575157
+      tyrian.shp.007D3C_1: -953754205
+      tyrian.shp.007D3C_10: 1675583122
+      tyrian.shp.007D3C_11: -151120489
+      tyrian.shp.007D3C_12: 1939101422
+      tyrian.shp.007D3C_13: -557886549
+      tyrian.shp.007D3C_14: 1155207964
+      tyrian.shp.007D3C_15: -499953062
+      tyrian.shp.007D3C_16: -1584258315
+      tyrian.shp.007D3C_17: 857214205
+      tyrian.shp.007D3C_18: 564653194
+      tyrian.shp.007D3C_19: -1849770775
+      tyrian.shp.007D3C_2: -1704531747
+      tyrian.shp.007D3C_20: 12594519
+      tyrian.shp.007D3C_21: -877384469
+      tyrian.shp.007D3C_22: -359605173
+      tyrian.shp.007D3C_23: 921409425
+      tyrian.shp.007D3C_24: -1868874076
+      tyrian.shp.007D3C_25: 736898001
+      tyrian.shp.007D3C_26: 1100055556
+      tyrian.shp.007D3C_27: 776394456
+      tyrian.shp.007D3C_28: 2035688678
+      tyrian.shp.007D3C_29: -620926611
+      tyrian.shp.007D3C_3: -1483643269
+      tyrian.shp.007D3C_30: 1649007236
+      tyrian.shp.007D3C_31: 953171062
+      tyrian.shp.007D3C_32: 2011554319
+      tyrian.shp.007D3C_33: -497482638
+      tyrian.shp.007D3C_34: -1907333455
+      tyrian.shp.007D3C_35: -1097054750
+      tyrian.shp.007D3C_36: -179411709
+      tyrian.shp.007D3C_37: -1206080513
+      tyrian.shp.007D3C_38: -2002690731
+      tyrian.shp.007D3C_39: -1957337978
+      tyrian.shp.007D3C_4: -450353877
+      tyrian.shp.007D3C_40: -687281907
+      tyrian.shp.007D3C_41: 996001969
+      tyrian.shp.007D3C_42: 791497211
+      tyrian.shp.007D3C_43: 275382778
+      tyrian.shp.007D3C_44: -902846912
+      tyrian.shp.007D3C_45: 424213687
+      tyrian.shp.007D3C_46: 1529000017
+      tyrian.shp.007D3C_47: 332525345
+      tyrian.shp.007D3C_48: -1482469885
+      tyrian.shp.007D3C_49: 827068601
+      tyrian.shp.007D3C_5: -883546519
+      tyrian.shp.007D3C_50: -750505233
+      tyrian.shp.007D3C_51: 1149944416
+      tyrian.shp.007D3C_52: 1422757662
+      tyrian.shp.007D3C_53: -2019385115
+      tyrian.shp.007D3C_6: 495327720
+      tyrian.shp.007D3C_7: 455340862
+      tyrian.shp.007D3C_8: 1411151887
+      tyrian.shp.007D3C_9: -873308095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

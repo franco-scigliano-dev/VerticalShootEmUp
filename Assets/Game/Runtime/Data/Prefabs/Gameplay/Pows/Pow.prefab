@@ -83,7 +83,7 @@ MonoBehaviour:
   _currentLevelData: {fileID: 11400000, guid: 7674a1b18e57dcf42806f6b77319e581, type: 2}
   _onGameActorDestroyedEvt: {fileID: 11400000, guid: cebde52ca573cf74e91e1f5751a319c8,
     type: 2}
-  _weapon: {fileID: 0}
+  _weapon: {fileID: 11400000, guid: 1fa2ba214b7595b4da20dc6babda223b, type: 2}
 --- !u!1 &3815762522038037106
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +400,7 @@ SpriteRenderer:
   m_SortingLayerID: 313070691
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fcff7308c2580fa4fa219baa33ea3ebf, type: 3}
+  m_Sprite: {fileID: -476577728, guid: 78d75569ed3a78e48bf54138baffb789, type: 3}
   m_Color: {r: 1, g: 0, b: 0.57594633, a: 1}
   m_FlipX: 0
   m_FlipY: 0

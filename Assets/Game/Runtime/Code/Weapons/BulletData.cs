@@ -16,6 +16,7 @@ namespace com.fscigliano.VerticalShootEmUp.Weapons
         public GameActorIDAsset bullet;
         public bool setMovement = true;
         public float angle;
+        public Vector3 scale = Vector3.one;
         public Vector2 offset;
     }
 }

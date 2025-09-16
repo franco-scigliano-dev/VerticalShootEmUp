@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3d59324d76541745b649a8501f47d15, type: 3}
   m_Name: AvatarWeapon1
   m_EditorClassIdentifier: 
+  _description: 
   _weaponDatas:
   - bulletDatas:
-    - bullet: {fileID: 11400000, guid: 4b5755470c3343242a501965785f86f1, type: 2}
+    - bullet: {fileID: 11400000, guid: 6d6c21f659ac24b4eab39ddf22917e35, type: 2}
       setMovement: 1
-      angle: -5
-      offset: {x: -0.75, y: 0}
-    cooldown: 0.1
+      angle: -3.5
+      scale: {x: 1, y: 1, z: 1}
+      offset: {x: -0.5, y: 0}
+    cooldown: 0.05
   - bulletDatas:
-    - bullet: {fileID: 11400000, guid: 4b5755470c3343242a501965785f86f1, type: 2}
+    - bullet: {fileID: 11400000, guid: 6d6c21f659ac24b4eab39ddf22917e35, type: 2}
       setMovement: 1
-      angle: 5
-      offset: {x: 0.75, y: 0}
-    cooldown: 0.1
+      angle: 3.5
+      scale: {x: 1, y: 1, z: 1}
+      offset: {x: 0.5, y: 0}
+    cooldown: 0.05

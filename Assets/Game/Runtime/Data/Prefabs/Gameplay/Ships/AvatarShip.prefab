@@ -47,6 +47,56 @@ MonoBehaviour:
   _requestShootEvt: {fileID: 11400000, guid: 15754ffac628af947ac83affc370d198, type: 2}
   _inputProvider: {fileID: 11400000, guid: a0c26efd073ef114ba932aa46009c701, type: 2}
   _currentWeapon: {fileID: 11400000, guid: 1fa2ba214b7595b4da20dc6babda223b, type: 2}
+--- !u!1 &1833214217666815793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7273628020810201850}
+  - component: {fileID: 6215624314462154999}
+  m_Layer: 8
+  m_Name: AnimatorSpeedSetter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7273628020810201850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833214217666815793}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 64244888505781564}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6215624314462154999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833214217666815793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674d31f9d87ede4438a222ef9e5fbe7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 3706369337866041652}
+  _rb2d: {fileID: 7952406827645555825}
+  _parameter: Speed
+  _currentSpeed: 0
+  _speed: 0.15
+  _cSpeed: 0
 --- !u!1 &4683488437629633252
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,6 +131,7 @@ Transform:
   - {fileID: 2173457796540836376}
   - {fileID: 4412801570653196269}
   - {fileID: 1723830047952738097}
+  - {fileID: 7273628020810201850}
   m_Father: {fileID: 7952406827645555831}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4814234116844800988
@@ -314,12 +365,12 @@ SpriteRenderer:
   m_SortingLayerID: 313070691
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e039f189f682a344390018cc7ee3fb37, type: 3}
-  m_Color: {r: 0.21003917, g: 0.754717, b: 0.21003917, a: 1}
+  m_Sprite: {fileID: -620926611, guid: afbfef8cf40ebde448414a7f9ecc79a3, type: 3}
+  m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.4, y: 2.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -337,13 +388,14 @@ GameObject:
   - component: {fileID: 7952406827645555828}
   - component: {fileID: 7952406827645555830}
   - component: {fileID: 7952406827645555825}
+  - component: {fileID: 3706369337866041652}
   m_Layer: 8
   m_Name: AvatarShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7952406827645555831
 Transform:
   m_ObjectHideFlags: 0
@@ -380,6 +432,7 @@ MonoBehaviour:
   - {fileID: 8946868042925797027}
   - {fileID: 2552679033037228180}
   - {fileID: 6927420936919007840}
+  - {fileID: 6215624314462154999}
   _time: 0
   _onGameActorDestroyedEvt: {fileID: 11400000, guid: cebde52ca573cf74e91e1f5751a319c8,
     type: 2}
@@ -456,6 +509,28 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!95 &3706369337866041652
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7952406827645555824}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53bce9406315ebb4998a9a124fbf7388, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8034855039143174733
 GameObject:
   m_ObjectHideFlags: 0

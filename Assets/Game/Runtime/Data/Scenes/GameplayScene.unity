@@ -3698,6 +3698,16 @@ MonoBehaviour:
     preloadCount: 0
     defaultCapacity: 0
     maxSize: 20
+  - poolID: {fileID: 11400000, guid: 6d6c21f659ac24b4eab39ddf22917e35, type: 2}
+    prefabReference:
+      m_AssetGUID: d85282ef8664f534ebe75ce65de44af5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    preloadCount: 0
+    defaultCapacity: 0
+    maxSize: 20
   - poolID: {fileID: 11400000, guid: 74eedca279936ee48ba11cf1ebab45f7, type: 2}
     prefabReference:
       m_AssetGUID: e2d3e273fc8594c4f83a171cf0fe05c2
@@ -4098,7 +4108,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ca963eebabdeb944ca905636f8d192ca, type: 2}
   - {fileID: 11400000, guid: 9e1b4d2713fe41b46b945b6caf749432, type: 2}
   - {fileID: 11400000, guid: 9303d36ec341700468f28ceeccbafeeb, type: 2}
-  _unloadAllPreloaded: 0
+  _unloadAllPreloaded: 1
   _unloadAudioAssets: []
   _audioSources:
   - {fileID: 854046132}
@@ -4241,6 +4251,7 @@ MonoBehaviour:
   _explodingGameActors:
   - {fileID: 11400000, guid: bd018ea7e7694aa4ab3019e9ef7cf8dd, type: 2}
   - {fileID: 11400000, guid: 4b5755470c3343242a501965785f86f1, type: 2}
+  - {fileID: 11400000, guid: 6d6c21f659ac24b4eab39ddf22917e35, type: 2}
   - {fileID: 11400000, guid: 74eedca279936ee48ba11cf1ebab45f7, type: 2}
   - {fileID: 11400000, guid: 2e927b96a3699964183780fb19fa464a, type: 2}
   _vfxId: {fileID: 11400000, guid: 5bfde485fa7229848b7b40cc6512d369, type: 2}
@@ -4865,9 +4876,9 @@ MonoBehaviour:
   - powId: {fileID: 11400000, guid: d3c5fb582ced05c419c44c18db2ef3af, type: 2}
     chance: 3
   - powId: {fileID: 11400000, guid: 2161bff0bf24e5c47bd4deb98512f92d, type: 2}
-    chance: 1
+    chance: 3
   - powId: {fileID: 11400000, guid: 80d5b772b8122b34fa9afefedc61e025, type: 2}
-    chance: 5
+    chance: 3
 --- !u!4 &1273895020
 Transform:
   m_ObjectHideFlags: 0
@@ -5415,9 +5426,6 @@ MonoBehaviour:
   - component: {fileID: 872209427}
     dependencies: []
     isEnabled: 1
-  - component: {fileID: 1273895019}
-    dependencies: []
-    isEnabled: 1
   - component: {fileID: 1022942369}
     dependencies: []
     isEnabled: 1
@@ -5911,6 +5919,9 @@ MonoBehaviour:
     audioReferenceAsset: {fileID: 11400000, guid: 9303d36ec341700468f28ceeccbafeeb,
       type: 2}
   - gameActorId: {fileID: 11400000, guid: 4b5755470c3343242a501965785f86f1, type: 2}
+    audioReferenceAsset: {fileID: 11400000, guid: 9303d36ec341700468f28ceeccbafeeb,
+      type: 2}
+  - gameActorId: {fileID: 11400000, guid: 6d6c21f659ac24b4eab39ddf22917e35, type: 2}
     audioReferenceAsset: {fileID: 11400000, guid: 9303d36ec341700468f28ceeccbafeeb,
       type: 2}
   - gameActorId: {fileID: 11400000, guid: 74eedca279936ee48ba11cf1ebab45f7, type: 2}
@@ -6771,7 +6782,7 @@ MonoBehaviour:
     maxSize: 10
   - poolID: {fileID: 11400000, guid: 2161bff0bf24e5c47bd4deb98512f92d, type: 2}
     prefabReference:
-      m_AssetGUID: 1815032ccfe1f3b4a9b23ee3f40eeedf
+      m_AssetGUID: ef437d442d4fda54fb1f3b5a5bb8bb94
       m_SubObjectName: 
       m_SubObjectType: 
       m_SubObjectGUID: 

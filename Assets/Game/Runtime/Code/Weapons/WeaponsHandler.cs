@@ -47,7 +47,8 @@ namespace com.fscigliano.VerticalShootEmUp.Weapons
             if (!canShoot) return;
 
             var o = _poolSystem.Spawn(bdata.bullet, pos + (Vector3)bdata.offset, Quaternion.identity);
-
+            o.transform.localScale = bdata.scale;
+            
             if (o is GameActor actor)
             {
                 if (bdata.setMovement)
