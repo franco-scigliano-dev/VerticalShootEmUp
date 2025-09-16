@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,10 +129,10 @@ TextureImporter:
       name: newsh7.shp.000000_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 228
-        height: 224
+        x: 144
+        y: 196
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,11 +147,385 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 196
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ff567c5e597ce44a54af1fe6cf14b3
+      internalID: -1813138903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 196
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618ebf892180faf43b269e4330209f94
+      internalID: 1880775904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3095b72e4cf829d499ae131d66118ff7
+      internalID: -1739012384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5273fdc7d54c248479a2505cd7df3636
+      internalID: 2126464546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a2b59030dc09d4a8b251776b1b94dd
+      internalID: -204847417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09d36b2c7c6917419fde2817dbb99c3
+      internalID: 1353460119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5588e1e302819cc4e94e100ce5096cbe
+      internalID: 1335799321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0324559b6008914a97dd75cda77b36d
+      internalID: -625054009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0bc808414a3dc42b7b3127660a85ee
+      internalID: 1618205609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adb077fdd382e942b0e4e0ef2982dfc
+      internalID: -876352459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2984d70cadae234e9fd35196b8fbd27
+      internalID: -1305288443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc50e3c17e101674897ed10bde1fd6f4
+      internalID: 1842794582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaace564866491489f4a358a8417cec
+      internalID: 1894492704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 84
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a171c5f4c337c004f8b380858882d0e4
+      internalID: 1114491725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_15
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7022d43efffc94ebff87b08f390b1e
+      internalID: -12984990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03db82b06e4be6444998f9ad43c6e762
+      internalID: 596266422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: newsh7.shp.000000_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 56
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a952a05a40e7674bb6bd57641ed38f8
+      internalID: 886156314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4072f0df554dca649b35701b5f5035fb
     internalID: 0
     vertices: []
     indices: 
@@ -162,6 +536,23 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       newsh7.shp.000000_0: -4949333736122081263
+      newsh7.shp.000000_1: -1813138903
+      newsh7.shp.000000_10: -876352459
+      newsh7.shp.000000_11: -1305288443
+      newsh7.shp.000000_12: 1842794582
+      newsh7.shp.000000_13: 1894492704
+      newsh7.shp.000000_14: 1114491725
+      newsh7.shp.000000_15: -12984990
+      newsh7.shp.000000_16: 596266422
+      newsh7.shp.000000_17: 886156314
+      newsh7.shp.000000_2: 1880775904
+      newsh7.shp.000000_3: -1739012384
+      newsh7.shp.000000_4: 2126464546
+      newsh7.shp.000000_5: -204847417
+      newsh7.shp.000000_6: 1353460119
+      newsh7.shp.000000_7: 1335799321
+      newsh7.shp.000000_8: -625054009
+      newsh7.shp.000000_9: 1618205609
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

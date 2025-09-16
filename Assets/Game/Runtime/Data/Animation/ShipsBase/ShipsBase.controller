@@ -32,10 +32,10 @@ BlendTree:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blend Tree
+  m_Name: SpeedBlendTree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: a8b29db21df26e04f9389370613cad92, type: 2}
+    m_Motion: {fileID: 7400000, guid: efb612d8e4b923944b906d9b04944001, type: 2}
     m_Threshold: -12
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -43,7 +43,7 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ceab67873d7045b4d9edcdea06dd0ecc, type: 2}
+    m_Motion: {fileID: 7400000, guid: 59bb64cdfa3cd2d4491aca0a6b186280, type: 2}
     m_Threshold: -6
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -51,7 +51,7 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: b5867d9420af5e7408a9c35c709cddde, type: 2}
+    m_Motion: {fileID: 7400000, guid: 87ec67a64d0d1254cb0edcbee63c581f, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -59,7 +59,7 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7d2dd8555d35dcf4bb66dc564efaeba7, type: 2}
+    m_Motion: {fileID: 7400000, guid: 54974711fa99dd54fa92d9d883e81b64, type: 2}
     m_Threshold: 6
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -67,7 +67,7 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 362d79ddee0ce504e9e96749086148a3, type: 2}
+    m_Motion: {fileID: 7400000, guid: 43065b54100acbb4db9c9805350d0eb0, type: 2}
     m_Threshold: 12
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -109,7 +109,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Avatar
+  m_Name: ShipsBase
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Speed

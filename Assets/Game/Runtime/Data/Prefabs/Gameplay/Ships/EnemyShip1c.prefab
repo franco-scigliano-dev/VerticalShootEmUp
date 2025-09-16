@@ -289,7 +289,7 @@ PrefabInstance:
     - target: {fileID: 6269354180260640802, guid: 54f44f0a789c92643a4651c2fa9eac37,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6269354180762170682, guid: 54f44f0a789c92643a4651c2fa9eac37,
         type: 3}
@@ -304,6 +304,16 @@ PrefabInstance:
     - target: {fileID: 6269354180762170682, guid: 54f44f0a789c92643a4651c2fa9eac37,
         type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269354180762170685, guid: 54f44f0a789c92643a4651c2fa9eac37,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269354180762170685, guid: 54f44f0a789c92643a4651c2fa9eac37,
+        type: 3}
+      propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7465275949223810643, guid: 54f44f0a789c92643a4651c2fa9eac37,
@@ -480,5 +490,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6269354180260640802, guid: 54f44f0a789c92643a4651c2fa9eac37,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3848818471501796366}
   m_SourcePrefab: {fileID: 100100000, guid: 54f44f0a789c92643a4651c2fa9eac37, type: 3}
+--- !u!1 &8048221654091839376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6269354180260640802, guid: 54f44f0a789c92643a4651c2fa9eac37,
+    type: 3}
+  m_PrefabInstance: {fileID: 4084833697068191666}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3848818471501796366
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8048221654091839376}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: c832468bb93e11644bc62e3555de3312, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
