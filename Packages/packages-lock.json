@@ -1,0 +1,462 @@
+{
+  "dependencies": {
+    "com.fscigliano.asyncinitializations": {
+      "version": "https://github.com/franco-scigliano-dev/AsyncInitializations.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.fscigliano.propertydrawerscollection": "https://github.com/franco-scigliano-dev/PropertyDrawersCollection.git#v1.0.0"
+      },
+      "hash": "2847b54f9f242ca3154052fb846f0648344813f3"
+    },
+    "com.fscigliano.asyncpoolingsystem": {
+      "version": "https://github.com/franco-scigliano-dev/AsyncPoolingSystem.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "2.3.16",
+        "com.unity.scriptablebuildpipeline": "2.2.11",
+        "com.fscigliano.poolingsystem": "https://github.com/franco-scigliano-dev/PoolingSystem.git#v1.0.0",
+        "com.fscigliano.asyncinitializations": "https://github.com/franco-scigliano-dev/AsyncInitializations.git#v1.0.0"
+      },
+      "hash": "755beae7660c4cc4f31e6a5166e0d62ff11a472c"
+    },
+    "com.fscigliano.asyncsfxhandler": {
+      "version": "https://github.com/franco-scigliano-dev/AsyncSFXHandler.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.fscigliano.asyncinitializations": "https://github.com/franco-scigliano-dev/AsyncInitializations.git#v1.0.0",
+        "com.fscigliano.sfxhandler": "https,://github.com/franco-scigliano-dev/SFXHandler.git:v1.0.0"
+      },
+      "hash": "6aa68ddd0e21de9c1f5be2c132b0087cf48c15ee"
+    },
+    "com.fscigliano.commonextensions": {
+      "version": "https://github.com/franco-scigliano-dev/CommonExtensions.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.fscigliano.propertydrawerscollection": "https://github.com/franco-scigliano-dev/PropertyDrawersCollection.git#v1.0.0"
+      },
+      "hash": "d617242f7b31386a57b10cdf7504e1f61a5f4c82"
+    },
+    "com.fscigliano.gameevents": {
+      "version": "https://github.com/franco-scigliano-dev/GameEvents.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0ea1184ef2df3ff0a5c778bb4ef9345f5b27b676"
+    },
+    "com.fscigliano.interfaceobject": {
+      "version": "https://github.com/franco-scigliano-dev/InterfaceObject.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.fscigliano.reflectionextensions": "https://github.com/franco-scigliano-dev/ReflectionExtensions.git#v1.0.0"
+      },
+      "hash": "f7d39e211c274e1aa23631363b38a9bc27692f20"
+    },
+    "com.fscigliano.poolingsystem": {
+      "version": "https://github.com/franco-scigliano-dev/PoolingSystem.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "2.3.16",
+        "com.unity.scriptablebuildpipeline": "2.2.11",
+        "com.fscigliano.commonextensions": "https://github.com/franco-scigliano-dev/CommonExtensions.git#v1.0.0"
+      },
+      "hash": "0283b93b0a60a9a36d18106322bc7da85f8a003a"
+    },
+    "com.fscigliano.propertydrawerscollection": {
+      "version": "https://github.com/franco-scigliano-dev/PropertyDrawersCollection.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.fscigliano.reflectionextensions": "https://github.com/franco-scigliano-dev/ReflectionExtensions.git#v1.0.0"
+      },
+      "hash": "516a7027262c0f0ccc01f413eb7f82df74672818"
+    },
+    "com.fscigliano.reflectionextensions": {
+      "version": "https://github.com/franco-scigliano-dev/ReflectionExtensions.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7c35ebd3c7b9e84d87c2b0e5969590bf955a1686"
+    },
+    "com.fscigliano.sequentialevents": {
+      "version": "https://github.com/franco-scigliano-dev/SequentialEvents.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.fscigliano.reflectionextensions": "https://github.com/franco-scigliano-dev/ReflectionExtensions.git#v1.0.0"
+      },
+      "hash": "fe7d7dce5e0691d0d52e161abcb8cf46dbd33d48"
+    },
+    "com.fscigliano.sfxhandler": {
+      "version": "https://github.com/franco-scigliano-dev/SFXHandler.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "2.3.16",
+        "com.unity.scriptablebuildpipeline": "2.2.11"
+      },
+      "hash": "8705c286ac98e6651174d5de9c83119de8de7c1c"
+    },
+    "com.unity.2d.pixel-perfect": {
+      "version": "5.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.addressables": {
+      "version": "2.3.16",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.profiling.core": "1.0.2",
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.scriptablebuildpipeline": "2.2.11",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ext.nunit": {
+      "version": "2.0.5",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.rider": {
+      "version": "3.0.37",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ide.visualstudio": {
+      "version": "2.0.23",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.9"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.13.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.profiling.core": {
+      "version": "1.0.2",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "2.2.11",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.modules.assetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.test-framework": {
+      "version": "1.4.6",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "2.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.ugui": {
+      "version": "2.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.modules.accessibility": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.ai": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.androidjni": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.animation": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.assetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.audio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.cloth": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.director": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.animation": "1.0.0"
+      }
+    },
+    "com.unity.modules.hierarchycore": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imageconversion": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.imgui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.jsonserialize": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.particlesystem": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.physics2d": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.screencapture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.subsystems": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.terrainphysics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0"
+      }
+    },
+    "com.unity.modules.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics2d": "1.0.0"
+      }
+    },
+    "com.unity.modules.ui": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.uielements": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.hierarchycore": "1.0.0"
+      }
+    },
+    "com.unity.modules.umbra": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unityanalytics": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequest": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.unitywebrequestassetbundle": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestaudio": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequesttexture": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.unitywebrequestwww": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequestaudio": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      }
+    },
+    "com.unity.modules.vehicles": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
+    "com.unity.modules.video": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
+    "com.unity.modules.vr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      }
+    },
+    "com.unity.modules.wind": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.xr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0"
+      }
+    }
+  }
+}

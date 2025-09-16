@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - OneHitDestroy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PlayerShips
+  - PlayerBullets
+  - EnemyShips
+  - EnemyBullets
+  - Neutral
+  - Bounds
+  - InvulnerableAvatar
+  - PowerUps
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 701633079
+    locked: 0
+  - name: BackgroundSprites
+    uniqueID: 4080705533
+    locked: 0
+  - name: GameActorsSprites
+    uniqueID: 313070691
+    locked: 0
+  - name: ForegroundSprites
+    uniqueID: 2221288327
+    locked: 0
+  - name: UI
+    uniqueID: 315837743
+    locked: 0
+  - name: ForegroundUI
+    uniqueID: 2077077267
+    locked: 0
